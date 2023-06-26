@@ -30,7 +30,7 @@ def predict(no_times_pregnant, glucose_concentration, blood_pressure, skin_fold_
     return prediction
 
 st.title('Diabetics Disease Classification: 0 No disease, 1 Diabetics disease')
-st.image("""https://www.pep2dia.com/wp-content/uploads/2021/03/how-to-diagnose-diabetes.png""")
+st.image("""https://gray-wtvm-prod.cdn.arcpublishing.com/resizer/XFW89t0m5aTKBlTDG-_NgFdGFzU=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/Y6FGSFI5O5DUTPR6P6TKW3VCFM.jpg""")
 st.header('Enter the Health Info for the Diabetic Diagnosis:')
 no_times_pregnant = st.number_input('no_times_pregnant:', min_value=0, max_value=10, value=1)
 glucose_concentration = st.number_input('glucose_concentration:', min_value=10, max_value=1000, value=70)
